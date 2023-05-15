@@ -14,7 +14,7 @@ crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 hdk = "0.2.1-beta-dev.0"
-holo_hash = { version = "0.2.1-beta-dev.1", features = [ "hashing", "encoding" ] } # needed for "from_raw_32" method
+holo_hash = { version = "0.2.1-beta-dev.0", features = [ "hashing", "encoding" ] } # needed for "from_raw_32" method
 serde = "1"
 thiserror = "1"
 
